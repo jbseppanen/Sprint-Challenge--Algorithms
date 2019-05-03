@@ -133,4 +133,3 @@ if __name__ == "__main__":
 
     robot.sort()
     print(robot._list)
-
