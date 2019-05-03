@@ -121,7 +121,6 @@ class SortingRobot:
 
 
 if __name__ == "__main__":
-    # if True:
     # Test our your implementation from the command line
     # with `python robot_sort.py`
 
@@ -135,11 +134,3 @@ if __name__ == "__main__":
     robot.sort()
     print(robot._list)
 
-    # m = [20, 77, 45, 16, 15, 91, 12, 6, 24, 89, 53, 19, 85, 56, 13, 74, 48, 98, 9, 92, 25, 35, 54, 44, 50, 5, 75,
-    #      34, 2, 42, 87, 49, 76, 52, 43, 23, 7, 80, 66, 14, 46, 90, 88, 40, 97, 10, 57, 63, 1, 18, 67, 79, 96, 27, 73,
-    #      28, 32, 61, 30, 8, 17, 93, 26, 51, 60, 55, 62, 31, 47, 64, 39, 22, 99, 95, 83, 70, 38, 69, 36, 41, 37, 65, 84,
-    #      3, 29, 58, 0, 94, 4, 11, 33, 86, 21, 81, 72, 82, 59, 71, 68, 78]
-    #
-    # robotm = SortingRobot(m)
-    # robotm.sort()
-    # print(robotm._list)
