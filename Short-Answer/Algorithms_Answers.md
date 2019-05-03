@@ -1,4 +1,7 @@
 Add your answers to the Algorithms exercises here.
+
+## Exercise I
+
 ```
 a)  a = 0
     while (a < n * n * n): = 0(n^3)
@@ -37,3 +40,14 @@ c)  def bunnyEars(bunnies):
 ```
 
 This would be O(n)).  The recursion only occurs n times.
+
+
+## Exercise II
+
+Divide the number of floors in half (round down if needed to get a whole floor). (n/2)  Go to that floor and drop the egg.
+If it does not break, go up half again as many floors (current floor + (n-current floor)/2).  If it does break, go halfway
+down instead of up ((current floor /2)).  Drop an egg again and loop through the process until you get to where 
+the floor you are one does not break the egg and the floor above does, or the floor below you does not break it, and the
+floor you are on does.  The floor between those 2 that does not break the egg is the floor you want to find.
+
+The runtime complexity should be O(logn) since n will divide in half each time it loops through.
